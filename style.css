@@ -1,0 +1,84 @@
+body {
+  height: 100vh;
+  margin: 0;
+  background-color: #f4d04e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Figtree", sans-serif;
+  padding: 0 30px 0 20px;
+}
+
+main {
+  background-color: white;
+  width: 90%;
+  max-width: 360px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 0px 3px #000000;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+header img {
+  width: 100%;
+}
+
+.main-part {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.main-part p {
+  margin: 0;
+}
+
+.main-part h1 {
+  margin: 0;
+  font-size: 27px;
+}
+
+.main-part span {
+  font-size: 16px;
+  color: #6b6b6b;
+}
+
+.main-upper-part {
+  background-color: #f4d04e;
+  width: 82px;
+  height: 29px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-upper-part h3 {
+  margin: 0;
+  font-size: 15px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+footer img {
+  width: 32px;
+  height: 32px;
+}
+
+footer h2 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.attribution {
+  margin-top: 20px;
+}
