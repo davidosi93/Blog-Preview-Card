@@ -14,6 +14,7 @@ main {
   background-color: white;
   width: 90%;
   max-width: 360px;
+  border: 1px solid;
   border-radius: 20px;
   box-shadow: 6px 6px 0px 3px #000000;
   padding: 24px;
